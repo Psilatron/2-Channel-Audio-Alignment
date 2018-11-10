@@ -8,3 +8,8 @@ The alignaudio() function uses MATLAB's alignsignals() function to align two aud
 
 - Sample rates of audio files must be the same.
 - Only mono. Multi-channel audio files will be read, however only the left channel will be processed for alignment.
+- If the signals are too dissimilar the alignment will be poor.
+
+## Instructions
+- Place audio files and these scripts in the same directory. 
+- Edit AlignAudio2ch.m to suit the names of your audio files, and then run the script. The output file should be a stereo .wav file which contains the aligned signals. 
