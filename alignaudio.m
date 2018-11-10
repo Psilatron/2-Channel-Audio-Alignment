@@ -63,12 +63,3 @@ elseif (Sz2>Sz1)
 end
 
 end
-
-
-  
-
-
-
-
-
-
